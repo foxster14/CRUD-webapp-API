@@ -1,0 +1,40 @@
+<!doctype html>
+<head>
+    <meta charset="utf-8">
+    <title>Update Employee Record</title>
+</head>
+
+<body>
+
+    <h2>Update an Employee Record</h2>
+    <p>Update an Employee Record using the Employee Number</p>
+    <br>
+    <hr> <!-- This is the hr tag, or "horizonatal reference" -->
+    <br>
+    <p>This will locate an employee within the MySQL Database using their employee number</p>
+    <p>You can then choose which field you would like to update</p>
+    <p>You can update any field, except the employee number.</p>
+    <br>
+    <p><b>Please enter the number of the employee who's record you need to update</b></p>
+    <form action="updateemployee.php">
+    Employee Number:<br>
+    <input type="text" name="emp_no" value="500001">
+    <br><br>
+    <input type="submit" value="Submit">
+    </form>
+    <br>
+    <hr> <!-- This is the hr tag, or "horizonatal reference" -->
+    <br>
+
+    <!-- DO I KEEP THE REST OF THIS ?? -->
+    <!--<p>This Form will link to a PHP page that lets you enter in a new attribute for the updated record</p>
+    <form action="updateemployeeattr.php">
+    Last name:<br>
+    <input type="text" name="lastname" value="Weedman">
+    <br><br>
+    <input type="submit" value="Submit">
+    </form>	-->
+
+</body>
+
+</html>
