@@ -28,8 +28,8 @@
 	        //really bad stuff here - password in plain text
 		//$username = "<put your db username here>";    //username for database
 		//$password = "<put your db password here";		//password for the user
-	        $username = "dbuser"; 
-		$password = "abc123";
+	        $username = "foxsarh"; 
+		$password = "123";
 		$dbname = "employees";  	//which db you're going to use
 	
 		//this is the php object oriented style of creating a mysql connection

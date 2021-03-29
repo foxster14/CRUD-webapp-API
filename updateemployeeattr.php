@@ -33,10 +33,11 @@
         $emp_no = $_GET["emp_no"];
 
         // display what we are updating to the user 
-        echo "Updating: " . $emp_attr . " to " . $new_val;
+        echo "Updating: " . $emp_attr . " to " . $new_value;
 
-        $sql = "UPDATE employees SET ".$emp_attr." = '".$new_val."' WHERE ".$emp_no." = '".$emp_no."'";
+        $sql = "UPDATE employees SET ".$emp_attr." = '".$new_value."' WHERE ".$emp_no." = '".$emp_no."'";
         //UPDATE employees SET hire_date = "1999-05-30" WHERE emp_no = 500000
+		echo "<br><br>";
 
         //run the Update
         if ($conn->query($sql) == TRUE){
@@ -48,6 +49,7 @@
 			echo "Error: " . $sql . "<br>" . $conn->error;
 		}
 
+		echo "<br><a href ='192.168.56.104'>Home</a>";
 
         $conn->close();
 	?>
