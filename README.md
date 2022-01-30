@@ -1,2 +1,2 @@
-# PHPDataDrivenSite
-PHP Data Driven Website
+# PHP Data Driven Web Application
+This simple web application utilizes PHP and a MySQL database to pass data from the frontend to the backend. The database is comprised of a template database that the mariaDB distribution of MySQL provides called "Employees." This application has full create, read, update, and delete (CRUD) functionality. This application also uses a simple API that I created using Python and JSON.
